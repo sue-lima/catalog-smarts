@@ -1,0 +1,53 @@
+#landing-page {
+    width: 100vw;
+    height: 100vh;
+    background: #e7a6a9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-page .landing-content {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 600px;
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('../../assets/logoImg.png') no-repeat right;
+}
+
+.landing-content main {
+    max-width: 350px;
+    font-family: Archivo;
+}
+
+.landing-content main h1 {
+    font-size: 86px;
+    line-height: 85px;
+}
+
+.landing-content main p {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.landing-content .enter-app {
+    width: 280px;
+    height: 85px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3e76bc;;
+    transition: background-color 0.2s;
+}
+
+.landing-content .enter-app:hover {
+    background: #cdddf3;
+}
