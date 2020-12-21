@@ -1,0 +1,98 @@
+.customer-details {
+  max-width: 800px;
+  margin: 54px auto;
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.customer-details > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.customer-details .images {
+  display: grid;
+  grid-template-columns: repeat(6 ,1fr);
+  column-gap: 16px;
+  margin: 16px 40px 0;
+}
+ 
+.customer-details .images button {
+  border: 0;
+  height: 88px;
+  background: none;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  outline: none;
+  opacity: 0.6;
+}
+
+.customer-details .images button.active {
+  opacity: 1;
+}
+
+.customer-details .images button img {
+  width: 100%;
+  height: 88px;
+  object-fit: cover;
+  
+}
+
+.customer-details .customer-details-content {
+  padding: 60px;
+}
+
+.customer-details .customer-details-content h1 {
+  color: black;
+  font-size: 44px;
+}
+
+.customer-details .customer-details-content p {
+  line-height: 18px;
+  color: black;
+  margin-top: 24px;
+}
+
+.customer-details .customer-details-content .map-container .leaflet-container {
+  border-radius: 30px;
+  margin-top: 54px;
+}
+
+.customer-details .customer-details-content hr {
+  width: 100%;
+  height: 3px;
+  border: 0;
+  background:#cf4b5c;
+  margin: 44px 0;
+}
+
+.customer-details .customer-details-content h2 {
+  font-size: 30px;
+  line-height: 46px;
+  color: black;
+}
+
+.customer-details .customer-details-content .timeline-details table{
+  margin-top: 24px;
+  margin-bottom: 5px;
+}
+
+.customer-details .customer-details-content .timeline-details div{
+  text-align: center;
+
+}
+.customer-details .customer-details-content .timeline-details thead{
+  background-color: #e7a6a9;
+  color: black;
+}
+
+.timeline-details td,th{
+  border: 1px solid #e7a6a9;
+  padding: 5px;
+  color: black;
+}
+

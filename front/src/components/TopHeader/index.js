@@ -1,21 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { BsBoxArrowInLeft } from 'react-icons/bs'
 
 import './styles.css';
 
 function PageHeader(props) {
+    const { goBack } = useHistory();
+
     return (
         <header className="page-header">
             <div className="top-bar-container">
-                <Link to="/">
-                    <BsBoxArrowInLeft />
-                </Link>
+                <button type="button" onClick={goBack}>
+                    <BsBoxArrowInLeft size={26} color="#063057"/>
+                </button>
             </div>
 
             <div className="header-content">
                 <strong>{props.title}.</strong>
-                { props.description && <p>{props.description}</p>}
 
                 {props.children}
             </div>
