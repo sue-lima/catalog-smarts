@@ -1,5 +1,7 @@
 # Smarts Challenge
 
+![demo](https://user-images.githubusercontent.com/54121204/102805061-7102d380-4399-11eb-8266-868e1838f35f.jpeg)
+
 ## 🔖 About
 
 A web application to catalog customers using json-server
