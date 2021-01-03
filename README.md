@@ -21,7 +21,27 @@ A web application to catalog customers using json-server
 
 ## How to run
 
-**In the front and back folders**
+**Front-end**
 ```bash
-npm start
+# Enter the front-end folder with
+$ cd smarts-challenge-reactjs/web
+
+# Install the dependencies
+$ npm install
+
+# Run the application
+$ npm start
+```
+
+
+**Back-end**
+```bash
+# Enter the back-end folder with
+$ cd smarts-challenge-reactjs/backend
+
+# Install the dependencies
+$ npm install
+
+# Run the back-end
+$ npm start
 ```
